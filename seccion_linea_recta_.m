@@ -104,4 +104,4 @@ tk3=[0:1.5/9:1.5];
 Xtotal=[Xace Xcons Xdace];
 Ytotal=[Yace Ycons Ydace];
 Ztotal=[Zace Zcons Zdace];
-plot3(Xtotal,Ytotal,Ztotal)
+plot3(Xtotal,Ytotal,Ztotal,'*','MarkerEdgeColor','r','LineWidth',1)
