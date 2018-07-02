@@ -5,7 +5,7 @@ endfunction
 function[k]= Trapecio(h,x_0,x_n)
     k=0
     for j = x_0:h:x_n
-    is=(alterna(j)+alterna(j+h))*(h/2)*(1/60)
+    is=(alterna(j)+alterna(j+h))*(h/2)
     k = k + is
     end
 endfunction
